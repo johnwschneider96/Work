@@ -1,0 +1,27 @@
+.buttbutt {
+    background-color: #622dad;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: -3px;
+}
+
+.buttbutt:hover {
+    background-color: #563d7c;
+    color: #ffffff;
+}
+
+.likeColor {
+    color: #ffffff;
+}
+
+#nicerFont {
+    font-family: 'Roboto', sans-serif;
+}
+
+.scooch {
+    margin-right: -104px;
+}
+
+.scooch2 {
+    margin-left: 44px;
+}

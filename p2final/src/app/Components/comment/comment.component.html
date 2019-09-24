@@ -1,0 +1,23 @@
+<article class="row">
+    <div class="col-md-2 col-sm-2 hidden-xs scooch">
+        <figure class="thumbnail scooch2">
+            <img class="media-object photo-profile " [src]="signedUrl" width="40" height="40" alt="...">
+        </figure>
+    </div>
+    <div class="col-md-10 col-sm-10">
+        <div class="panel panel-default arrow left">
+            <div class="panel-body">
+                <header class="text-left">
+                    <div class="comment-user likeColor">{{comment.user.firstname}} {{comment.user.lastname}}</div>
+                </header>
+                <div class="comment-post likeColor">
+                    <p id="nicerFont">
+                        {{comment.content}}
+                    </p>
+                    <button type="submit" class="btn buttbutt" (click)="addLike(comment)">Like</button>
+                    <p class="likeColor">{{comment.numLikes}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

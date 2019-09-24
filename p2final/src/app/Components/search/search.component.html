@@ -1,0 +1,13 @@
+<div class="card">
+    <img [src]="signedUrl" alt="John"
+      style="width:100%">
+    <h1>{{myUserData.firstname}} {{myUserData.lastname}}</h1>
+    <p class="title">{{myUserData.email}}</p>
+    <p>{{myUserData.phonenumber}}</p>
+  </div>
+  <app-create-post></app-create-post>
+  <div *ngFor="let s of myresponse">
+    <app-story [story]="s"></app-story>
+  </div>
+  
+  

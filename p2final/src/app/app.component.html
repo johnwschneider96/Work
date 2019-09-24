@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand navdonk" *ngIf="nav.visible">
+  <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="/feed">Home</a>
+      <a class="nav-item nav-link" routerLink="/profile">Profile</a>
+      <a class="nav-item nav-link" routerLink="/login">Logout</a>
+      <form class="form-inline my-2 my-lg-0">
+        <input id="search" class="form-control mr-sm-2 scooch" type="search" placeholder="Search by Email" aria-label="Search">
+        <button class="btn buttbutt my-2 my-sm-0" type="submit" (click)="newMessage()">Search</button>
+      </form>
+  </div>
+</nav>
+
+<div class="jumbotron dongo">
+  <div class="container dongo2">
+      <router-outlet></router-outlet>
+  </div>
+</div>

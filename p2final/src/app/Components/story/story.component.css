@@ -1,0 +1,27 @@
+.buttbutt {
+    background-color: #622dad;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttbutt:hover {
+    background-color: #563d7c;
+    color: #ffffff;
+}
+
+.titleThing {
+    
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.titleThing {
+    margin-top: 5px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+.likeColor {
+    color: #ffffff;
+}

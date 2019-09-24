@@ -1,0 +1,44 @@
+.formtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16pt;
+    color: #ffffff;
+}
+
+.headthing {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 31pt;
+    color: #ffffff;
+}
+
+
+
+.buttbutt {
+    background-color: #341461;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttbutt:hover {
+    background-color: #563d7c;
+    color: #ffffff;
+}
+
+#buttbutt {
+    background-color: #28A745;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scooch {
+    margin-top: 5px;
+}
+
+.scooch2 {
+    margin-bottom: 20px;
+}
+
+makeItNice{
+    color: #ffffff;
+
+}

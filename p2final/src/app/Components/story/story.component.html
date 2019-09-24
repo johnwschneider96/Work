@@ -1,0 +1,42 @@
+<div class="container">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <section class="post-heading">
+                <div class="row">
+                    <div class="col-md-11">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#">
+                                    <img class="media-object photo-profile"
+                                        [src]="signedUrl"
+                                        width="40" height="40" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body titleThing">
+                                
+                                    <h4 class="media-heading">{{story.userEmail.firstname}} {{story.userEmail.lastname}}</h4>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1">
+                        <a href="#"><i class="glyphicon glyphicon-chevron-down"></i></a>
+                    </div>
+                </div>
+            </section>
+            <section class="post-body titleThing">
+                <p>
+                    {{story.content}}
+                </p>
+            </section>
+            <button type="submit" class="btn buttbutt" (click)="addLike(story)">Like</button>
+            <p class="likeColor">{{story.numLikes}}</p>
+        </div>
+    </div>
+</div>
+<app-create-comment [story] = "story"></app-create-comment>
+<div *ngFor="let c of myresponse">
+    <app-comment [comment]="c"></app-comment>
+</div>
+          
+                   

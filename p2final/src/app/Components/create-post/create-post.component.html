@@ -1,0 +1,15 @@
+<div class="container ">
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <form [formGroup]="postForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="description"></label>
+                    <textarea formControlName="content" rows="5" class="form-control"></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn buttbutt">Create Post</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

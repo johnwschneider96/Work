@@ -1,0 +1,18 @@
+.require {
+    color: #666;
+}
+label small {
+    color: #999;
+    font-weight: normal;
+}
+
+.buttbutt {
+    background-color: #622dad;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttbutt:hover {
+    background-color: #563d7c;
+    color: #ffffff;
+}
